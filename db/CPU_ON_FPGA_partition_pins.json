@@ -1,0 +1,169 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.OPJMP",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.INC",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.RET",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "zflag",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.JMP",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.CALL",
+					"strict" : false
+				},
+				{
+					"name" : "M[7]",
+					"strict" : false
+				},
+				{
+					"name" : "M[4]",
+					"strict" : false
+				},
+				{
+					"name" : "M[5]",
+					"strict" : false
+				},
+				{
+					"name" : "M[6]",
+					"strict" : false
+				},
+				{
+					"name" : "M[0]",
+					"strict" : false
+				},
+				{
+					"name" : "M[1]",
+					"strict" : false
+				},
+				{
+					"name" : "M[2]",
+					"strict" : false
+				},
+				{
+					"name" : "M[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.NONE",
+					"strict" : false
+				},
+				{
+					"name" : "cmd.JNZ",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "load_addr[10]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+
+-- Package Declaration Section
+package register_types is
+	
+	type name_t is (NONE, M, V, X, OP0, OP0H, OP0L, OP1, OP1H, OP1L, SP, FP, GP, IP, AP);
+	
+	constant addr_t: std_logic_vector(16 downto 0);
+	
+end package register_types;

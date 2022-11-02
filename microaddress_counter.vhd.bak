@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity micaddr_counter is 
+port(
+		clk, rst: in std_logic;
+		cmd: in std_logic_vector(1 downto 0);
+		load_addr: in std_logic_vector(10 downto 0);
+		addr: out std_logic_vector(10 downto 0)
+		
+);
+
+end entity;
+
+architecture arch_of_micaddr_counter of micaddr_counter is 
+
+type CMD is (NONE, INC, BR);
+
+signal next_addr: std_logic_vector(10 downto 0);
+begin
+	
+	CMD <= cmd;
+	
+	process(cmd, load_addr, rst)
+	begin
+			case (CMD) is
+				NONE => next_addr = load_addr;
+				INC => next_addr = load_addr + 1;
+				BR => next_addr  = load_addr;
+				others => next_addr = "0000000000";
+			end case;
+			
+			if(rst = '0') then
+				next_addr = "0000000000";
+			end if;
+	end process;
+	
+	process(rst, clk)
+	begin 
+		addr <= next_addr;
+	end process;
+
+
+end architecture;
